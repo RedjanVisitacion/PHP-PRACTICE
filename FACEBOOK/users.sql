@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2025 at 05:55 AM
+-- Generation Time: Apr 11, 2025 at 08:33 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -41,7 +41,8 @@ CREATE TABLE `info` (
 INSERT INTO `info` (`id`, `email`, `phone_number`, `password`) VALUES
 (2, NULL, 'John Rey Cabuguas', 'Jrcabuguas_067'),
 (3, NULL, '09206534289', 'tessiemae205'),
-(4, NULL, '0912345', 'dfgvd');
+(4, NULL, '0912345', 'dfgvd'),
+(5, NULL, '09754793551', '07192004');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +64,7 @@ ALTER TABLE `info`
 -- AUTO_INCREMENT for table `info`
 --
 ALTER TABLE `info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
