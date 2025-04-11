@@ -1,0 +1,25 @@
+
+body{
+    margin: 0px;
+    background-color: rgb(18, 28, 172);
+}
+
+.t{
+    color: #ffffff;
+    text-align: center;
+    background-color: #ffc800;
+}
+
+.letters{
+    font-style: italic;
+    color: #c2c2c2;
+    text-align: center;
+    margin: 20%;
+    font-size: larger;
+}
+
+#red{
+    color: #585e5c;
+    background-color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+}
